@@ -114,6 +114,27 @@ p {
   }
 }
 
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: #FFFFFF;
+}
+
 #mainNav {
   background-color: rgba(70, 89, 69, 0.9);
   font-family: 'Raleway';
